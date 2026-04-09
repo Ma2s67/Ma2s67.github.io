@@ -201,15 +201,32 @@
   </section>
  
   <!-- Contact -->
-  <section class="contact" id="contact">
-    <p class="contact-pre reveal">04 — Contact</p>
-    <h2 class="contact-title reveal">Travaillons<br/><span>ensemble.</span></h2>
-    <a href="mailto:massinedriouach@gmail.com" class="contact-email reveal">massinedriouach@gmail.com</a>
-    <div class="social-links reveal">
-      <a href="https://github.com/Ma2s67" class="social-link" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/massine-driouach-667589290/" class="social-link" target="_blank">LinkedIn</a>
+<!-- Contact -->
+<section class="contact" id="contact">
+  <p class="contact-pre reveal">04 — Contact</p>
+  <h2 class="contact-title reveal">Travaillons<br/><span>ensemble.</span></h2>
+
+  <form action="https://formspree.io/f/meepwpwk" method="POST" class="contact-form reveal">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Votre nom" required />
     </div>
-  </section>
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Votre email" required />
+    </div>
+    <div class="form-group">
+      <input type="text" name="company" placeholder="Votre entreprise (optionnel)" />
+    </div>
+    <div class="form-group">
+      <textarea name="message" placeholder="Votre message..." rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn-primary">Envoyer le message →</button>
+  </form>
+
+  <div class="social-links reveal">
+    <a href="https://github.com/" class="social-link" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/" class="social-link" target="_blank">LinkedIn</a>
+  </div>
+</section>
  
   <!-- Footer -->
   <footer>
