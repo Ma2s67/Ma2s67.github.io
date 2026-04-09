@@ -251,6 +251,7 @@ nav.scrolled {
   text-decoration: none;
   display: inline-block;
   transition: transform 0.2s, box-shadow 0.2s;
+  cursor: none;
 }
 
 .btn-primary:hover {
@@ -609,6 +610,53 @@ section {
 .contact-email:hover {
   color: var(--text);
   border-color: var(--text);
+}
+
+/* Formulaire */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 560px;
+  margin: 0 auto 48px;
+}
+
+.form-group {
+  border-bottom: 1px solid var(--border);
+  transition: border-color 0.3s;
+}
+
+.form-group:focus-within {
+  border-color: var(--accent);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  padding: 18px 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: var(--muted);
+}
+
+.form-group textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+.contact-form .btn-primary {
+  margin-top: 32px;
+  align-self: center;
 }
 
 .social-links {
