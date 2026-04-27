@@ -10,27 +10,28 @@
   <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
- 
+
+  <!-- Curseur personnalisé (j'ai galéré à le faire tourner sur toutes les pages) -->
   <div class="cursor" id="cursor"></div>
   <div class="cursor-ring" id="cursorRing"></div>
- 
+
   <!-- Navigation -->
   <nav id="nav">
     <a class="nav-logo" href="#">MD.DEV</a>
     <ul class="nav-links">
-      <li><a href="#about">À propos</a></li>
+      <li><a href="#about">A propos</a></li>  <!-- pas d'accent volontaire -->
       <li><a href="#skills">Compétences</a></li>
       <li><a href="#projects">Projets</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
- 
+
   <!-- Hero -->
   <section class="hero">
     <div class="hero-bg-text">MASSINE</div>
-    <div class="hero-tag">Disponible pour alternance · 2025</div>
+    <div class="hero-tag">Disponible pour alternance · 2026</div>
     <h1 class="hero-name">Massine<br/><span class="accent">DRIOUACH.</span></h1>
-    <p class="hero-sub">Diplômé BTS SIO option SLAM — je conçois des applications web et logicielles propres, fonctionnelles et maintenables.</p>
+    <p class="hero-sub">Diplômé BTS SIO option SLAM — je crée des applis web et logiciels. Pas parfait mais fonctionnel !</p>
     <div class="hero-actions">
       <a href="#projects" class="btn-primary">Voir mes projets</a>
       <a href="#contact" class="btn-ghost">Me contacter</a>
@@ -40,7 +41,7 @@
       <span>Scroll</span>
     </div>
   </section>
- 
+
   <!-- À propos -->
   <section class="about" id="about">
     <div class="section-label">01 — À propos</div>
@@ -65,14 +66,14 @@
       <div class="reveal reveal-delay-2">
         <p class="about-text">
           Je m'appelle <strong>Massine DRIOUACH</strong>, développeur web et logiciel fraîchement diplômé d'un <strong>BTS SIO option SLAM</strong>. Durant ma formation, j'ai appris à concevoir, développer et maintenir des applications de qualité.<br/><br/>
-          Je cherche aujourd'hui une <strong>alternance en licence informatique</strong> pour approfondir mes compétences dans un environnement professionnel stimulant. Curieux, rigoureux et autonome, je m'adapte vite et j'apprends encore plus vite.<br/><br/>
+          Je cherche aujourd'hui une <strong>alternance en licence informatique</strong> pour approfondir mes compétences dans un environnement pro. Curieux, rigoureux et autonome, je m'adapte vite et j'apprends encore plus vite.<br/><br/>
           Mon objectif : intégrer une équipe où je peux contribuer dès le premier jour tout en continuant à progresser.
         </p>
         <a href="#contact" class="btn-primary">Travaillons ensemble</a>
       </div>
     </div>
   </section>
- 
+
   <!-- Compétences -->
   <section class="skills" id="skills">
     <div class="section-label">02 — Compétences</div>
@@ -136,7 +137,7 @@
       </div>
     </div>
   </section>
- 
+
   <!-- Projets -->
   <section class="projects" id="projects">
     <div class="projects-header">
@@ -159,7 +160,7 @@
         </div>
         <span class="project-arrow">→</span>
       </a>
-      <a href="#" class="project-item reveal reveal-delay-1">
+      <a href="javascript:void(0)" class="project-item reveal reveal-delay-1">
         <span class="project-num">02</span>
         <div class="project-info">
           <div class="project-name">Application de gestion de tâches</div>
@@ -172,7 +173,7 @@
         </div>
         <span class="project-arrow">→</span>
       </a>
-      <a href="#" class="project-item reveal reveal-delay-2">
+      <a href="javascript:void(0)" class="project-item reveal reveal-delay-2">
         <span class="project-num">03</span>
         <div class="project-info">
           <div class="project-name">Script d'automatisation Python</div>
@@ -184,7 +185,7 @@
         </div>
         <span class="project-arrow">→</span>
       </a>
-      <a href="#" class="project-item reveal reveal-delay-3">
+      <a href="javascript:void(0)" class="project-item reveal reveal-delay-3">
         <span class="project-num">04</span>
         <div class="project-info">
           <div class="project-name">Projet à venir — API REST</div>
@@ -199,41 +200,40 @@
       </a>
     </div>
   </section>
- 
+
   <!-- Contact -->
-<!-- Contact -->
-<section class="contact" id="contact">
-  <p class="contact-pre reveal">04 — Contact</p>
-  <h2 class="contact-title reveal">Travaillons<br/><span>ensemble.</span></h2>
+  <section class="contact" id="contact">
+    <p class="contact-pre reveal">04 — Contact</p>
+    <h2 class="contact-title reveal">Travaillons<br/><span>ensemble.</span></h2>
 
-  <form action="https://formspree.io/f/meepwpwk" method="POST" class="contact-form reveal">
-    <div class="form-group">
-      <input type="text" name="name" placeholder="Votre nom" required />
-    </div>
-    <div class="form-group">
-      <input type="email" name="email" placeholder="Votre email" required />
-    </div>
-    <div class="form-group">
-      <input type="text" name="company" placeholder="Votre entreprise (optionnel)" />
-    </div>
-    <div class="form-group">
-      <textarea name="message" placeholder="Votre message..." rows="5" required></textarea>
-    </div>
-    <button type="submit" class="btn-primary">Envoyer le message →</button>
-  </form>
+    <form action="https://formspree.io/f/meepwpwk" method="POST" class="contact-form reveal">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Votre nom" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Votre email" required />
+      </div>
+      <div class="form-group">
+        <input type="text" name="company" placeholder="Votre entreprise (optionnel)" />
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Votre message..." rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn-primary">Envoyer le message →</button>
+    </form>
 
-  <div class="social-links reveal">
-    <a href="https://github.com/" class="social-link" target="_blank">GitHub</a>
-    <a href="https://linkedin.com/" class="social-link" target="_blank">LinkedIn</a>
-  </div>
-</section>
- 
+    <div class="social-links reveal">
+      <a href="https://github.com/Ma2s67" class="social-link" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/massine-d" class="social-link" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer>
     <p>© 2025 Massine DRIOUACH</p>
-    <p>Conçu & développé à la main</p>
+    <p>Conçu & développé à la main (avec un peu d'aide)</p>
   </footer>
- 
+
   <script src="js/script.js"></script>
 </body>
 </html>
